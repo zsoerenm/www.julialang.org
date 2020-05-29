@@ -121,3 +121,28 @@ function hfun_recentblogposts()
     end
     return String(take!(io))
 end
+
+function hfun_i18l()
+    rp = locvar(:fd_rpath)
+    if startswith(rp, "cn/")
+        return :cn
+    elseif startswith(rp, "fr/")
+        return :fr
+    else
+        return :en
+    end
+end
+
+function hfun_i18()
+    l = hfun_i18l()
+    l == :en && return ""
+    return "/$l"
+end
+
+function hfun_i18(params)
+    key = params[1]
+    i18 = get(globvar(:i18n), Symbol(key), nothing)
+    isnothing(i18) && return ""
+    lang = hfun_i18l()
+    return getfield(i18, lang)
+end

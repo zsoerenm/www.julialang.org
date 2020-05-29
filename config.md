@@ -23,3 +23,11 @@ in `downloads/index.md` will not be shown.
 @def upcoming_release = "1.5.0-beta1"
 @def upcoming_release_short = "1.5"
 @def upcoming_release_date = "May 28, 2020"
+
+<!--
+Every line must start with four spaces. Test the dictionary in Julia
+to ensure  you didn't forget a comma or a parenthesis
+-->
+@def i18n = (include("i18n.jl"); i18n)
+
+A
