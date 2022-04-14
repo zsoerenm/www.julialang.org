@@ -17,13 +17,13 @@ The answer is yes, you can quickly build machine learning implementations which 
 SimpleChains.jl is a library developed by [Pumas-AI](https://pumas.ai/) and [Julia Computing](https://juliacomputing.com/) in collaboration with [Roche](https://www.roche.com/) and the [University of Maryland, Baltimore](https://www.pharmacy.umaryland.edu/centers/ctm/). The purpose of SimpleChains.jl is to be as fast as possible for small neural networks. SimpleChains.jl originated as a solution for the Pumas-AI's DeepPumas product for [scientific machine learning (SciML)](https://www.stochasticlifestyle.com/the-essential-tools-of-scientific-machine-learning-scientific-ml/) in healthcare data analytics. As an illustration, small neural networks (and other approximators, such as Fourier series or Chebyshev polynomial expansions) can be combined with known semi-physiologic models to discover previously unknown mechanisms and prognostic factors. For a short introduction to how this is done, check out the following video by Niklas Korsbo:
 
 ~~~
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TFB_lt1KMto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width: 100vw; height: calc(100vw/1.77)" src="https://www.youtube.com/embed/TFB_lt1KMto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ~~~
 
 This [SciML methodology](https://sciml.ai/roadmap/) has been shown across many disciplines, from black hole dynamics to the development of earthquake safe buildings, to be a flexible method capable of discovering/guiding (bio)physical equations. Here's a recent talk which walks through the various use cases of SciML throughout the sciences:
 
 ~~~
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eSeY4K4bITI?start=668" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width: 100vw; height: calc(100vw/1.77)" src="https://www.youtube.com/embed/eSeY4K4bITI?start=668" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ~~~
 
 For more details on the software and methods, [see our paper on Universal Differential Equations for Scientific Machine Learning](https://arxiv.org/abs/2001.04385). 
